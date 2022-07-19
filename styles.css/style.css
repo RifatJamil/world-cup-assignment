@@ -1,0 +1,58 @@
+
+/* Google font: Kreon  =----------*/
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Lato&display=swap');
+/* -----------------------------------------------------------------------------------------
+-------------------------------------------------------------
+------------------------------- */
+
+/* variables */
+:root {
+    --black:#181212;
+}
+
+body {
+    font-family: 'lato', serif;
+    
+}
+
+
+/* everything about hero------------------
+---------------------------------------- */
+
+.hero {
+    background: rgb(5,5,9);
+    background: linear-gradient(90deg, rgba(5,5,9,1) 53%, rgba(76,117,125,1) 99%);
+    width: 90%;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+.hero-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.hero-child {
+    
+    width: 50%;
+    padding-left: 10%;
+    color: white;
+}
+.hero-child h1{
+    font-size: 3.75rem;
+}
+
+.hero-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.hero-child img {
+    
+}
