@@ -48,6 +48,7 @@
 
 
 
+
 /* media queries for mobile -------------------------
 ---------------------------------------------- */
 
@@ -83,6 +84,7 @@
         width: 80%;
         text-align: center;
         padding: 0;
+
     }
 
     .hero-child h1 {
@@ -94,6 +96,34 @@
       
     }
 
+    .mobile-view-hero:hover {
+      animation: wiggle 2s linear infinite;
+    }
+
+    /* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
 
     #mobile-view-hero-img {
         display: flex;
@@ -178,8 +208,14 @@
         box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
         border-radius: 1em;
         background: #ECE9E6;
-      background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+        background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+        transition: transform .2s; /* Animation */
       
+      }
+
+      .card:hover {
+        transform: scale(1.1);
+        
       }
       
       
@@ -237,6 +273,10 @@
         gap: 5rem;
       }
       
+      .card-icon {
+        width: 2rem;
+        display: inline;
+      }
 /* footer part starts here */
  
 footer {
@@ -350,6 +390,35 @@ footer {
   border-radius: 5px;
 }
 
+.mobile-view-hero:hover {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+0%, 7% {
+transform: rotateZ(0);
+}
+15% {
+transform: rotateZ(-15deg);
+}
+20% {
+transform: rotateZ(10deg);
+}
+25% {
+transform: rotateZ(-10deg);
+}
+30% {
+transform: rotateZ(6deg);
+}
+35% {
+transform: rotateZ(-4deg);
+}
+40%, 100% {
+transform: rotateZ(0);
+}
+}
+
 /* blog buttons container ------------ */
 .blog-static-box {
   display: flex;
@@ -406,8 +475,13 @@ img {
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
   background: #ECE9E6;
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  transition: transform .2s; /* Animation */
 
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 
@@ -463,6 +537,11 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 .user {
   display: flex;
   gap: 5rem;
+}
+
+.card-icon {
+  width: 2rem;
+  display: inline;
 }
 
 /* footer starts here  -----------------------
@@ -570,6 +649,35 @@ body {
   justify-content: center;
 }
 
+.mobile-view-hero:hover {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+0%, 7% {
+transform: rotateZ(0);
+}
+15% {
+transform: rotateZ(-15deg);
+}
+20% {
+transform: rotateZ(10deg);
+}
+25% {
+transform: rotateZ(-10deg);
+}
+30% {
+transform: rotateZ(6deg);
+}
+35% {
+transform: rotateZ(-4deg);
+}
+40%, 100% {
+transform: rotateZ(0);
+}
+}
+
 
 .hero-btn {
  
@@ -579,6 +687,7 @@ body {
   padding: .5rem;
   border-radius: 5px;
 }
+
 
 .only-mobile {
   display: none;
@@ -666,8 +775,13 @@ body {
       box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
       border-radius: 1em;
       background: #ECE9E6;
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+      background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+      transition: transform .2s; /* Animation */
     
+    }
+
+    .card:hover {
+      transform: scale(1.1);
     }
     
     
