@@ -95,6 +95,10 @@ background: radial-gradient(circle, rgba(186,187,196,1) 0%, rgba(21,56,52,1) 59%
         font-size: 4rem;
     }
 
+    .mobile-view-hero {
+      padding-top: 5rem;
+    }
+
 
     #mobile-view-hero-img {
         display: flex;
