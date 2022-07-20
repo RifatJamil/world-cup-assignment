@@ -63,7 +63,7 @@ body {
 /* media queries for mobile -------------------------
 ---------------------------------------------- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:680px) {
     .body {
         font-size: 14px;
         margin: 0;
@@ -271,3 +271,155 @@ footer {
 
 
 
+/* mediaqueries for tablets  */
+
+@media (min-width: 681px) and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+
+
+  .hero {
+    background: rgb(5,5,9);
+    background: linear-gradient(90deg, rgba(5,5,9,1) 53%, rgba(76,117,125,1) 99%);
+    width: 90%;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.hero-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  
+}
+
+.hero-child {
+  
+  width: 50%;
+  padding-left: 10%;
+  color: white;
+}
+.hero-child h1{
+  font-size: 2.25rem;
+}
+
+/* blog buttons container ------------ */
+.blog-static-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.blog-btn {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    color: black;
+}
+
+.blog-btn:hover {
+  background-color: lightgray;
+}
+#highlighted-btn  {
+  background-color: red;
+  color: white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border: none;
+}
+
+/* card container css starts here --------------
+------------------------ */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+}
+
+
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #FFD194, #D1913C);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.card__footer {
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.user {
+  display: flex;
+  gap: 5rem;
+}
+
+/* end is here  */
+}
