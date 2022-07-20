@@ -118,8 +118,35 @@ body {
         padding: .5rem;
         border-radius: 5px;
     }
-    
-    
+
+    /* blog part-------------------------
+    --------------------------- */
+    .blog-static-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+     
+    /* button for blogs */
+    .blog-btn{
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding: 1rem;
+        border: 1px solid gray;
+        margin-top: 1rem;
+        border-radius: .5rem;
+        color: black;
+    }
+
+    .blog-btn:hover{
+        background-color: lightgray;
+    }
+
+    #highlighted-btn{
+        border: none;
+        background-color: red;
+        color: white;
+    }
 
 
 /* end */
