@@ -287,7 +287,7 @@ footer {
 
 }
 
-
+/* global footer css -------- */
 .footer-link{
   text-align: center;
   text-decoration: none;
@@ -301,7 +301,7 @@ footer {
   text-decoration: none;
   color: lightgray;
 }
-
+/* ----------------------------------- */
 
 
 /* ---------------media queries for tablets  ------------------------------
@@ -340,6 +340,14 @@ footer {
 }
 .hero-child h1{
   font-size: 2.25rem;
+}
+
+.hero-btn {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 /* blog buttons container ------------ */
@@ -717,6 +725,11 @@ body {
       gap: 5rem;
     }
 
+
+    .card-icon {
+      width: 2rem;
+      display: inline;
+    }
 
     /* footer css sharts here ------------------
     ------------------------------------------------- */
